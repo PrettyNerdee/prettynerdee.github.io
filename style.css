@@ -26,3 +26,46 @@ ul {
 li {
     margin: 1.2em 0;
 }
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0e0c1c, #1a2238);
+    color: #EDEDED;
+    background-image: url("assets/memory-texture.png"), linear-gradient(135deg, rgba(155,93,229,0.08), rgba(95,195,228,0.08));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+#logo {
+    width: 180px;
+    margin-bottom: 1rem;
+}
+
+main {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem;
+}
+
+a {
+    color: #FF6A88;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #FFD34E;
+}
