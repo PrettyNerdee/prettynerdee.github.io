@@ -1,24 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>PrettyNerdee</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pretty Nerdee</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <img src="assets/logo.png" alt="PrettyNerdee Logo" id="logo">
-        <h1>Welcome to PrettyNerdee</h1>
-        <p>A home for creative code, cosmic horror, and cozy chaos.</p>
-    </header>
-    <main>
-        <ul>
-            <li><a href="undivided.html">Undivided</a></li>
-            <li><a href="gooddoctor.html">Good.Doctor</a></li>
-            <li><a href="gim.html">GiM</a></li>
-            <li><a href="animatedcomic.html">Animated Comic</a></li>
-            <li><a href="devlog.html">Devlog</a></li>
-        </ul>
-    </main>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="text-center py-10">
+    <img src="assets/logo.png" alt="Pretty Nerdee Logo" class="mx-auto w-40">
+    <h1 class="text-4xl font-bold mt-4">A PrettyNerdee Thing</h1>
+  </header>
+
+  <main class="px-6">
+    <section class="my-12">
+      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-gray-800 p-4 rounded shadow">GiM</div>
+        <div class="bg-gray-800 p-4 rounded shadow">Good.Doctor</div>
+        <div class="bg-gray-800 p-4 rounded shadow">Undivided</div>
+      </div>
+    </section>
+
+    <section class="my-12">
+      <h2 class="text-2xl font-semibold mb-4">Latest Devlog</h2>
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <img src="assets/devlog-thumbnail.png" alt="Devlog Thumbnail" class="w-full mb-4">
+        <p>Episode Title: MirrorState //001</p>
+        <p class="text-gray-400">"This update brought to you by a mild breakdown and two litres of caffeine."</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center text-gray-500 py-6">
+    &copy; 2025 Pretty Nerdee. All rights reserved.
+  </footer>
 </body>
 </html>
